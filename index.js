@@ -161,7 +161,7 @@ async function run(){
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send('Car Server Running...')
+  res.send('Car Server Running....')
 })
 console.log('database connected');
 app.listen(port, () => {
